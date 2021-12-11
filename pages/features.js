@@ -13,9 +13,6 @@ export default function Features() {
       <main class="flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
         Features
       </main>
-      <footer class="py-5 bg-gray-700 text-center text-white">
-        Tailwind is Awesome 😎
-      </footer>
     </div>
   )
 }
