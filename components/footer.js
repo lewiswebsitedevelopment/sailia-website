@@ -9,7 +9,7 @@ function Footer() {
                     <div class="my-3 sm:mt-0 sm:w-full sm:px-8 font-semibold text-gray-700 flex flex-col md:flex-row justify-between">
                         <div class="flex flex-col ">
                             <span class="font-bold text-gray-700 mb-2">Sailia links</span>
-                            <span class="my-2"><a href="#" class="hover:text-slate-500 duration-300">Documentation</a></span>
+                            <span class="my-2"><a target="blank" href="https://lucid-raman-29dac9.netlify.app/" class="hover:text-slate-500 duration-300">Documentation</a></span>
                         </div>
                         <div class="flex flex-col">
                             <span class="font-bold text-gray-700 mt-4 md:mt-0 mb-2">Policies</span>

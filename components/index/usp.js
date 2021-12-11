@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
 function Hero() {
     return (
 
-		<div class="bg-white rounded-2xl flex flex-col w-full justify-center items-start mt-10 p-5 ">
+		<div class="bg-white border border-gray-900/8 rounded-2xl flex flex-col w-full justify-center items-start mt-10 p-5 ">
 			<h2 class="mx-auto leading-normal mb-3 text-5xl">
                 Watersport's Only Complete Digital Platform
             </h2>
