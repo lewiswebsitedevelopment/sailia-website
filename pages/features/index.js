@@ -1,19 +1,19 @@
 import Head from 'next/head'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import Card from '../../components/features/main/featureMain'
+import Card from '../../components/features/parent/featureMain'
 
 export default function Features() {
   const features =  [
     {
       title:'Management made simple',
       description:"Sailia's search function puts your centre in the spotlight. Clients can easily search by sport, location, level or date.",
-      url:"/features/admin"
+      url:'/features/Admin'
     },
     {
       title:'Bookings. All in one place',
       description:"Ability to create bookings, templates, create custom questions and add ons",
-      url:"/features/booking"
+      url:"/features/Booking"
     },
     {
       title:'Always Compliant. Every. Single. Time',
