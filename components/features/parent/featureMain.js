@@ -9,7 +9,7 @@ const myLoader = ({ src, width, quality }) => {
 function FeatureMain(props) {
 
     return (
-        <div class='bg-white border  border-gray-900/8 rounded-2xl container mx-auto flex flex-col lg:flex-row items-center mt-10 p-5'>
+        <div class='bg-white border  border-gray-900/8 rounded-2xl container mx-auto flex flex-col lg:flex-row items-center mb-10 p-5'>
             <div class='w-full lg:w-1/2 lg:pr-6' >
                 <h1 class='leading-normal mb-3 text-5xl'>{props.title}</h1>
                 {console.log(props.decription)}

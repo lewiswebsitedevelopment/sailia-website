@@ -8,7 +8,7 @@ const myLoader = ({ src, width, quality }) => {
 function Footer() {
     return (
         <footer class="mt-24 footer bg-white relative pt-1 border-t border-gray-900/8 ">
-        <div class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="max-w-7xl mx-auto container px-5 py-12  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <a class="flex title-font font-medium items-center md:justify-start justify-center ">
                 <Image
@@ -52,8 +52,8 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div class="bg-custom-700">
-          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <div class="bg-custom-700 ">
+          <div class="max-w-7xl mx-auto container py-4 px-5 flex flex-wrap flex-col sm:flex-row">
             <p class="text-gray-500 text-sm text-center sm:text-left">© {(new Date().getFullYear())} Sailia Limited </p>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
               <a class="text-gray-500">

@@ -38,12 +38,12 @@ export default function Features() {
   return (
     <div class="font-montserrat text-text-900">
       <Head>
-        <title>Sailia</title>
+        <title>Features</title>
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <main class="flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
+      <main class="flex-1 overflow-y-auto py-5 pt-0 max-w-7xl mx-auto">
         {arr.map(item => <Card title={item.title} description={item.description} url={item.url} />)}
       </main>
       <Footer />
