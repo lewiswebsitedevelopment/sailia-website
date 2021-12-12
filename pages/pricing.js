@@ -17,16 +17,17 @@ export default function Home() {
         <div class="container px-5 pb-24 pt-12 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
             <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical.</p>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Cheap good stuff</p>
             <div class="flex mx-auto border-2 border-custom-800 rounded overflow-hidden mt-6">
                 <button class="py-1 px-4 bg-custom-800 text-white focus:outline-none">Monthly</button>
                 <button class="py-1 px-4 focus:outline-none">Annually</button>
             </div>
+            <p>^ not currently working, but can make this work</p>
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">START</h2>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Launch</h2>
                 <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">Free</h1>
                 <p class="flex items-center text-gray-600 mb-2">
                     <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -60,9 +61,9 @@ export default function Home() {
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-custom-800 flex flex-col relative overflow-hidden">
                 <span class="bg-custom-800 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">PRO</h2>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Bosun</h2>
                 <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                    <span>$38</span>
+                    <span>£150</span>
                     <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
                 </h1>
                 <p class="flex items-center text-gray-600 mb-2">
@@ -103,9 +104,9 @@ export default function Home() {
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">BUSINESS</h2>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Skipper</h2>
                 <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                    <span>$56</span>
+                    <span>£300</span>
                     <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
                 </h1>
                 <p class="flex items-center text-gray-600 mb-2">
@@ -153,9 +154,9 @@ export default function Home() {
             </div>
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">SPECIAL</h2>
+                <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Helm</h2>
                 <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                    <span>$72</span>
+                    <span>£450</span>
                     <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
                 </h1>
                 <p class="flex items-center text-gray-600 mb-2">

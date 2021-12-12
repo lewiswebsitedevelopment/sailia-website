@@ -2,7 +2,7 @@ import { useRouter } from 'next/router'
 import Head from 'next/head'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
-import Card from '../../components/features/parent/featureMain'
+import Card from '../../components/features/child/featureChild'
 
 const Post = () => {
   const router = useRouter()
@@ -53,9 +53,10 @@ const Post = () => {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <main class="flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
-        <h1>{features[feature].title}</h1>
-        <p>{features[feature].description}</p>
+      <main class="bg-white border  border-gray-900/8 rounded-2xl container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
+
+        <h1 class='leading-normal mb-3 text-5xl'>{features[feature].title}</h1>
+        <p class='mb-12'>{features[feature].description}</p>
         {features[feature].aspects.map(item => <Card title={item.title} description={item.description} url='' />)}
         <div>
           All of the other features will be down here
