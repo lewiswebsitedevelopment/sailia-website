@@ -9,7 +9,7 @@ const Post = () => {
   const { feature } = router.query
   const features =  {
     "Admin": {
-      "title":"Admin made effortless",
+      title:"Admin made effortless",
       "description": "Management tools",
       "aspects": [
         {
@@ -55,9 +55,9 @@ const Post = () => {
       <Header />
       <main class="bg-white border  border-gray-900/8 rounded-2xl container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
 
-        <h1 class='leading-normal mb-3 text-5xl'>{features[feature].title}</h1>
-        <p class='mb-12'>{features[feature].description}</p>
-        {features[feature].aspects.map(item => <Card title={item.title} description={item.description} url='' />)}
+        <h1 class='leading-normal mb-3 text-5xl'>{features[feature]?.title}</h1>
+        <p class='mb-12'>{features[feature]?.description}</p>
+        {features[feature]?.aspects.map(item => <Card title={item.title} description={item.description} url='' />)}
         <div>
           All of the other features will be down here
         </div>
