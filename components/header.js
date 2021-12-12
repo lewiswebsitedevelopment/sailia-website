@@ -35,9 +35,9 @@ function Header() {
                                 </Link>
                             </li>
                             <li>
-                                <a class="hover:text-sky-500" href="/blog">
-                                    About
-                                </a>
+                                <Link href="/about">
+                                    <a class="hover:text-slate-500 duration-300">About</a>
+                                </Link>
                             </li>
                             <div class="border-solid border border-gray-700"></div>
                             <li>
