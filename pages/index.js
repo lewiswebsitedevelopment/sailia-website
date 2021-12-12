@@ -21,6 +21,7 @@ export default function Home() {
         <SVP/>
         <SetSail/>
       </main>
+      <Footer />
     </div>
   )
 }
