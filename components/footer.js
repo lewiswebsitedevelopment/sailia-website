@@ -9,8 +9,8 @@ function Footer() {
     return (
         <footer class="mt-24 footer bg-white relative pt-1 border-t border-gray-900/8 ">
         <div class="max-w-7xl mx-auto container px-5 py-12  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <a class="flex title-font font-medium items-center md:justify-start justify-center ">
+          <div class="w-64 flex-shrink-0 pl-4  md:text-left">
+            <a class="flex title-font font-medium  md:justify-start ">
                 <Image
                     loader={myLoader}
                     src="websiteAssets/sailia-icon.png"
@@ -22,7 +22,7 @@ function Footer() {
             </a>
             <p class="mt-2 text-sm">Do what you do best? Giving you time</p>
           </div>
-          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 ">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 class="title-font font-medium  tracking-widest text-sm mb-3">Sailia help</h2>
               <nav class="list-none mb-10">
