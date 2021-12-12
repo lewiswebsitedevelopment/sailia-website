@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 export default function Features() {
   return (
-    <div class="font-montserrat">
+    <div class="font-montserrat text-text-900">
       <Head>
         <title>Sailia</title>
         <link rel="icon" href="/favicon.ico" />
@@ -13,6 +14,7 @@ export default function Features() {
       <main class="flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
         Features
       </main>
+      <Footer />
     </div>
   )
 }

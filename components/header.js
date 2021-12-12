@@ -16,7 +16,7 @@ function Header() {
                             <Image
                                 loader={myLoader}
                                 src="tenantlogo/1Logo.png"
-                                alt="Picture of the author"
+                                alt="Sailia logo"
                                 width={160}
                                 height={45}
                             />
