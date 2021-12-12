@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
 
 function Header() {
     return (
-    <div class="bg-white sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 border-b border-gray-900/8 supports-backdrop-blur:bg-white/95">
+    <div class="bg-white px-10 sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 lg:z-50 border-b border-gray-900/8 supports-backdrop-blur:bg-white/95">
         <div class="max-w-7xl mx-auto">
             <div class="py-4 mx-4 lg:mx-0">
                 <div class="relative flex items-center">
