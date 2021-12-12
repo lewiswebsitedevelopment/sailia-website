@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
 function USP() {
     return (
 
-		<div class="bg-white border border-gray-900/8 rounded-2xl container mx-auto items-center mt-10 p-8 pt-4">
+		<div class="container max-w-7xl  mx-auto items-center mt-10 p-8 pt-4">
 			<h2 class="mx-auto leading-normal md:text-center mb-10 text-5xl">Watersport's Only Complete Digital Platform</h2>
       {/* <p>Discovery, booking, management, staff, compliance. All in one place.</p> */}
       <div class="flex m-auto w-full flex-wrap">

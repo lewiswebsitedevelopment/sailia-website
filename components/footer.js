@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
 
 function Footer() {
     return (
-        <footer class="mt-24 footer bg-white relative pt-1 border-t border-gray-900/8 ">
+        <footer class="mt-24 footer bg-slate-900 text-white relative pt-1 border-t border-gray-900/8 ">
         <div class="max-w-7xl mx-auto container px-5 py-12  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 pl-4  md:text-left">
             <a class="flex title-font font-medium  md:justify-start ">
@@ -27,26 +27,26 @@ function Footer() {
               <h2 class="title-font font-medium  tracking-widest text-sm mb-3">Sailia help</h2>
               <nav class="list-none mb-10">
                 <li>
-                  <a href='https://docs.sailia.co.uk' target="blank" class="hover:text-gray-800 hover:underline">Documentation</a>
+                  <a href='https://docs.sailia.co.uk' target="blank" class="hover:text-gray-400 hover:underline">Documentation</a>
                 </li>
                 <li>
-                  <a href='https://docs.sailia.co.uk' class="hover:text-gray-800 hover:underline">Help center</a>
+                  <a href='https://docs.sailia.co.uk' class="hover:text-gray-400 hover:underline">Help center</a>
                 </li>
               </nav>
             </div>
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Policies</h2>
+              <h2 class="title-font font-medium tracking-widest text-sm mb-3">Policies</h2>
               <nav class="list-none mb-10">
                 <li>
                     <Link href="/policies/cookie">
-                        <a class="hover:text-gray-800 hover:underline">Cookie</a>
+                        <a class="hover:text-gray-400 hover:underline">Cookie</a>
                     </Link>
                 </li>
                 <li>
-                  <a class="hover:text-gray-800 hover:underline">Privacy</a>
+                  <a class="hover:text-gray-400 hover:underline">Privacy</a>
                 </li>
                 <li>
-                  <a class="hover:text-gray-800 hover:underline">Acceptable use</a>
+                  <a class="hover:text-gray-400 hover:underline">Acceptable use</a>
                 </li>
               </nav>
             </div>
