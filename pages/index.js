@@ -12,12 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
-      <Header />
       <main class="flex-1 overflow-y-auto max-w-7xl mx-auto">
-        <Hero />
-        <USP />
+        <div>
+          <h1 class="m-auto">Under construction</h1>
+        </div>
       </main>
-      <Footer />
     </div>
   )
 }
