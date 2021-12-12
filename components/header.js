@@ -25,7 +25,7 @@ function Header() {
                     <nav class="hidden lg:block ml-auto">
                         <ul class="flex space-x-14 text-sm leading-6 font-semibold text-gray-700">
                             <li>
-                                <Link href="/features">
+                                <Link href="/features/">
                                     <a class="hover:text-slate-500 duration-300">Features</a>
                                 </Link>
                             </li>

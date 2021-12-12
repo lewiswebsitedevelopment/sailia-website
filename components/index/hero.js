@@ -15,7 +15,7 @@ function Hero() {
             </h3>
             <p class='leading-normal mb-6'>Sailia is a complete management platform to help your centre get discovered, get bookings and get going.  Helping you focus on what you do best (this sort of thing?)</p>
 			<Button 
-				url='/features'
+				link='/features'
 				text='Find out more'
 			/>
 		</div>

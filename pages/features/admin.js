@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../../components/header'
+import Footer from '../../components/footer'
 
 export default function Features() {
   return (
@@ -12,7 +12,7 @@ export default function Features() {
       </Head>
       <Header />
       <main class="flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
-        Features
+        Admin
       </main>
       <Footer />
     </div>

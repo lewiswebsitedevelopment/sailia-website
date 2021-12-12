@@ -14,9 +14,7 @@ function SVP() {
             <Image
                 loader={myLoader}
                 src="websiteAssets/svp.png"
-                alt=""
-                // width={160}
-                // height={45}
+                alt="Highlight image"
                 layout='fill'
                 objectFit="contain"
                 placeholder="blur" with animated shimmer blurDataURL

@@ -9,7 +9,7 @@ function Sail() {
                 Ready to set sail?
             </h2>
             <Button 
-				url='/pricing'
+				link='/pricing'
 				text='See plans'
 			/>
         </div>
