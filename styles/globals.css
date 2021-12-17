@@ -6,3 +6,12 @@ body {
     background-color: #f8f8f8;
     color: #3F3F3F;
 }
+
+.tooltip {
+  @apply invisible absolute;
+}
+
+.has-tooltip:hover .tooltip {
+  @apply visible z-50;
+}
+
