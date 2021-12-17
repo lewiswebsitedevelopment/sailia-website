@@ -13,7 +13,7 @@ function Hero() {
 			<h3 class="md:leading-normal leading-tight mb-3 text-5xl">
                 The first online marketplace that connects people to watersports centres.
             </h3>
-            <p class='leading-normal mb-6'>Sailia is a complete management platform to help your centre get discovered, get bookings and get going.  Helping you focus on what you do best (this sort of thing?)</p>
+            <p class='leading-normal mb-6'>Sailia is a complete management platform to help your centre get discovered, get bookings and get going.</p>
 			<Button 
 				link='/features'
 				text='Find out more'
