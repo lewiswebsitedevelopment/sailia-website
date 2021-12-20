@@ -66,6 +66,106 @@ const Post = () => {
         }
       ]
     },
+    "Shop": {
+      "icon": "header/Booking.svg",
+      "name": "Shop",
+      "title":"Sell Anything",
+      "description": "Sell kit old or new direct to customers through an integrated shop.",
+      "image": "features/Shop/Shop With Side Bar Real.png",
+      "pricingText" :"Sell with Sailia",
+      "features": [
+        {
+          "name": "Integrated into Sailia",
+          "description": "Our shop is fully integrated into Sailia meaning you can sell anything from discount cards and memberships that can be attached to your profile, to your kit at the end of the season.",
+          "image": "features/Shop/Integrated into sailia.svg"
+        },
+        {
+          "name": "Low Base transaction",
+          "description": "Starting at 2.5% our transaction rate is by far the lowest of any online marketplace.",
+          "image": "features/Shop/Low Base Transaction.svg"
+        },
+        {
+          "name": "Included with all plans",
+          "description": "Whether you're on the free or helm plan you will have access to our shop.",
+          "image": "features/Shop/Included with all plans.svg"
+        },
+        {
+          "name": "Inventory Management",
+          "description": "Our shop seamlessly integrates with the admin dashboard to allow you to add stock within seconds.",
+          "image": "features/Shop/Inventory Management.svg"
+        }
+      ],
+      "aspects": [
+        {
+          "name": "Sell used kit at the end of the season",
+          "description": "Generate additional revenue on old kit that is to be replaced or create a thriving online watersports shop alongside your sessions.",
+          "image": "features/Shop/Group 1978.png",
+          "bg": 1
+        },
+        {
+          "name": "Sell Memberships",
+          "description": "Create customer loyalty with centre memberships. They are completely customisable and can be sold through your online shop.",
+          "image": "features/Shop/Group 327.png",
+          "bg": 0
+        },
+        {
+          "name": "In built analytics to help your sales grow",
+          "description": "Crucial Insights are summarised across the shop dashboard alongside key information to help your sales figures to grow.",
+          "image": "features/Shop/Group 1890.png",
+          "bg": 1
+        }
+      ]
+    },
+    "Compliance": {
+      "icon": "header/Booking.svg",
+      "name": "Compliance",
+      "title":"Always compliant. Every. Single. Time.",
+      "description": "Sailia ensures your centre ticks all legal boxes when taking bookings as well as keeping you aligned with RYA rules or other governing bodies.",
+      "image": "features/Compliance/Group 1974.png",
+      "pricingText" :"Get Compliant. Get Sailia.",
+      "features": [
+        {
+          "name": "RYA Compliance",
+          "description": "Sailia is built for RYA compliance. Never worry about missing the mark.",
+          "image": "features/Compliance/RYA Logo.svg"
+        },
+        {
+          "name": "RYA Course Templates",
+          "description": "Create sessions based off built in RYA course templates that mean you never miss a course requirement.",
+          "image": "features/Compliance/Session Templates (1).svg"
+        },
+        {
+          "name": "Built in Qualifications",
+          "description": "Assign qualifications to clients and staff from a built in governing body library.",
+          "image": "features/Compliance/Qualifications_1.svg"
+        },
+        {
+          "name": "Professional Body Ready",
+          "description": "Sailia supports qualifications, courses and compliance from a range of professional bodies including British canoeing, surfing England and British kitesports.",
+          "image": "features/Compliance/Professional Body Ready.svg"
+        }
+      ],
+      "aspects": [
+        {
+          "name": "Upload your Terms and Conditions",
+          "description": "Make sure your terms and conditions are always in order and edit them easily in the forms section of the platform.",
+          "image": "features/Compliance/Group 1895.png",
+          "bg": 1
+        },
+        {
+          "name": "Custom Medical Declaration",
+          "description": "Quickly Create medical declarations that are specific to where you are operating from. This information will be stored as part of a clients profile so once the admin is done it is done.",
+          "image": "features/Compliance/Group 1975.png",
+          "bg": 0
+        },
+        {
+          "name": "Cater to special Requirements",
+          "description": "Make sure your centre can cater to a clients requirements. Be they relating to accessibility, learning disabilities or other requirements, clients can document these clearly in their profile.",
+          "image": "features/Compliance/Group 1976.png",
+          "bg": 1
+        }
+      ]
+    },
     "Booking": {
       "icon": "header/Booking.svg",
       "name": "Bookings",

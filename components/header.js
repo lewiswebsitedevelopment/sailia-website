@@ -94,7 +94,7 @@ function Header() {
                                                         placeholder="blur" with animated shimmer blurDataURL
                                                     />
                                                 </div>
-                                                <Link href="/features/Booking">
+                                                <Link href="/features/Shop">
                                                     <a class="h-full pl-3 text-custom-900 hover:text-slate-500">
                                                         <p >Shop</p>
                                                         <p class='font-light'>Sell anything</p>
@@ -112,7 +112,7 @@ function Header() {
                                                         placeholder="blur" with animated shimmer blurDataURL
                                                     />
                                                 </div>
-                                                <Link href="/features/Booking">
+                                                <Link href="/features/Compliance">
                                                     <a class="h-full pl-3 text-custom-900 hover:text-slate-500">
                                                         <p >Compliance</p>
                                                         <p class='font-light'>Every time</p>
