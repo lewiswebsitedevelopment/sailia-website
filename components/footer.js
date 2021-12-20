@@ -7,20 +7,23 @@ const myLoader = ({ src, width, quality }) => {
 
 function Footer() {
     return (
-        <footer class="mt-24 footer bg-slate-900 text-white relative pt-1 border-t border-gray-900/8 ">
+        <footer class="footer bg-slate-900 text-white relative pt-10 -t ">
         <div class="max-w-7xl mx-auto container px-5 py-12  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 pl-4  md:text-left">
             <a class="flex title-font font-medium  md:justify-start ">
-                <Image
-                    loader={myLoader}
-                    src="websiteAssets/sailia-icon.png"
-                    alt="Sailia logo"
-                    width={35}
-                    height={35}
-                />
-              <span class="ml-3 text-xl">Sailia</span>
+                <div class=" w-24  my-auto relative aspect-video">
+                  <Image
+                        loader={myLoader}
+                        src= "websiteAssets/footer/Footer Logo.svg"
+                        alt="Sailia logo"
+                        layout='fill'
+                        objectFit="contain"
+                        placeholder="blur" with animated shimmer blurDataURL
+                    />
+                </div>
+              {/* <span class="ml-3 text-xl">Sailia</span> */}
             </a>
-            <p class="mt-2 text-sm">Do what you do best? Giving you time</p>
+            <p class=" text-sm">Make waves</p>
           </div>
           <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 ">
             <div class="lg:w-1/4 md:w-1/2 w-full px-4">

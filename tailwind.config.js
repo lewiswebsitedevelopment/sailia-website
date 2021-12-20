@@ -16,11 +16,12 @@ module.exports = {
           300: '#e0cec7',
           400: '#d2bab0',
           500: '#bfa094',
-          600: '#a18072',
+          // Accent2
+          600: '#A9DCDD',
           // 700 is the background color
           700: '#f5f7f7',
           // 800 is accent - color 5
-          800: '#20B5BA',
+          800: '#1EA8AB',
           // 900 is text color
           900: '#3F3F3F',
         },

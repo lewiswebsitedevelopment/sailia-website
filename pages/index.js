@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 import Hero from '../components/index/hero'
 import USP from '../components/index/usp'
 import SVP from '../components/index/svp'
-import SetSail from '../components/index/setSail'
+import ToPricing from '../components/small/directToPricing'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
         <Hero />
         <USP />
         <SVP/>
-        <SetSail/>
+        <ToPricing text='Stop Organising. Get Sailing'/>
       </main>
       <Footer />
     </div>
