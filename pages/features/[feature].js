@@ -1,8 +1,14 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
+import Image from 'next/image'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Card from '../../components/features/child/featureChild'
+import Button from '../../components/small/button'
+
+const myLoader = ({ src, width, quality }) => {
+  return `https://s3.sailia.co.uk/websiteAssets/${src}`
+}
 
 const Post = () => {
   const router = useRouter()
@@ -43,6 +49,27 @@ const Post = () => {
           "description": "Centres can offer customisable memberships through sailia giving clients discounts on selected sessions. Completed a course? Add your new qualifications to your account."
         }
       ]
+    },
+    "Management": {
+      "icon": "header/Management.svg",
+      "name": "Management",
+      "title":"Management made simple",
+      "description": "Get a bird’s eye view of centre life. Get a clear picture of all sessions occurring on any given day across all your locations.",
+      "image": "/features/Management/Dashboard-Home.png",
+      "aspects": [
+        {
+          "title": "4 step booking process",
+          "description": "Booking with sailia is effortless. 3 clicks and its done. Select the date, select a time on the session you want and confirm the family members attending and you’re done!"
+        }, 
+        {
+          "title": "User accounts",
+          "description": "Sailia is organised by family group. Add family or friends to your account to allow quick group bookings and get out there together!"
+        },
+        {
+          "title": "Memberships and qualifications",
+          "description": "Centres can offer customisable memberships through sailia giving clients discounts on selected sessions. Completed a course? Add your new qualifications to your account."
+        }
+      ]
     }
   }
   return (
@@ -53,10 +80,41 @@ const Post = () => {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <main class="bg-white border  border-gray-900/8 rounded-2xl container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
-
-        <h1 class='leading-normal mb-3 text-5xl'>{features[feature]?.title}</h1>
-        <p class='mb-12'>{features[feature]?.description}</p>
+      <main class=" container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
+        <div class='flex'>
+          <div class='w-full md:w-4/6'>
+            <div class='flex'>
+              <div class="h-5 w-5 mr-2 my-auto relative aspect-square">
+                  <Image
+                      loader={myLoader}
+                      src={features[feature]?.icon}
+                      alt="Wheel"
+                      layout='fill'
+                      objectFit="contain"
+                      placeholder="blur" with animated shimmer blurDataURL
+                  />
+              </div>
+              <p>{features[feature]?.name}</p>
+            </div>
+            <h1 class='leading-normal mb-3 text-5xl'>{features[feature]?.title}</h1>
+            <p class='mb-12'>{features[feature]?.description}</p>
+            <Button 
+              link='/pricing'
+              text='Start now'
+            />
+          </div>
+          <div class="w-full shadow-lg rounded-3xl ml-12 mr-2 relative aspect-video">
+              <Image
+                className="rounded-3xl"
+                  loader={myLoader}
+                  src={features[feature]?.image}
+                  alt="Wheel"
+                  layout='fill'
+                  objectFit="cover"
+                  placeholder="blur" with animated shimmer blurDataURL
+              />
+          </div>
+        </div>
         {features[feature]?.aspects.map(item => <Card title={item.title} description={item.description} url='' />)}
         <div>
           All of the other features will be down here

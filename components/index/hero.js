@@ -19,7 +19,7 @@ function Hero() {
 				text='Find out more'
 			/>
 		</div>
-		<div class="relative lg:w-2/4 h-[30rem] m-auto mt-6 aspect-square">
+		<div class="relative w-11/12 lg:w-2/4 h-[30rem] m-auto mt-6 aspect-square">
 			<Image
 				loader={myLoader}
 				src="websiteAssets/home/Isometric-Hero-Illustration.png"

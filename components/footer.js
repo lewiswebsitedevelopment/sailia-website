@@ -7,7 +7,7 @@ const myLoader = ({ src, width, quality }) => {
 
 function Footer() {
     return (
-        <footer class="mt-24 footer bg-slate-900 text-white relative pt-1 border-t border-gray-900/8 ">
+        <footer class="footer bg-slate-900 text-white relative pt-10 border-t border-gray-900/8 ">
         <div class="max-w-7xl mx-auto container px-5 py-12  flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
           <div class="w-64 flex-shrink-0 pl-4  md:text-left">
             <a class="flex title-font font-medium  md:justify-start ">

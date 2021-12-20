@@ -11,18 +11,14 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <main class="border  border-gray-900/8 rounded-2xl container bg-white flex-1 overflow-y-auto max-w-7xl mx-auto ">
+      <main class="rounded-2xl container  flex-1 overflow-y-auto max-w-7xl mx-auto ">
 
-      <section class="text-gray-600 body-font overflow-hidden">
+      <section class="body-font overflow-hidden">
         <div class="container px-5 pb-24 pt-12 mx-auto">
-            <div class="flex flex-col text-center w-full mb-20">
-            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">Pricing</h1>
-            <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">Cheap good stuff</p>
-            <div class="flex mx-auto border-2 border-custom-800 rounded overflow-hidden mt-6">
-                <button class="py-1 px-4 bg-custom-800 text-white focus:outline-none">Monthly</button>
-                <button class="py-1 px-4 focus:outline-none">Annually</button>
-            </div>
-            <p>^ not currently working, but can make this work</p>
+            <div class="flex flex-col w-full mb-20">
+            <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 ">Grow with Sailia.</h1>
+            <p class="lg:w-2/3  leading-relaxed text-base ">Plans for every size</p>
+
             </div>
             <div class="flex flex-wrap -m-4">
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
