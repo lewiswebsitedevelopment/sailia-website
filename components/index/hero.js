@@ -26,6 +26,7 @@ function Hero() {
 				alt="Highlight image"
 				layout='fill'
 				objectFit="contain"
+				eager
 				placeholder="blur" with animated shimmer blurDataURL
 			/>
 		</div>

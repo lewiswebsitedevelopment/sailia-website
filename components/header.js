@@ -19,6 +19,7 @@ function Header() {
                                 alt="Sailia logo"
                                 layout='fill'
                                 objectFit="contain"
+                                eager
                                 placeholder="blur" with animated shimmer blurDataURL
                             />
                         </a>
@@ -75,7 +76,7 @@ function Header() {
                                                         placeholder="blur" with animated shimmer blurDataURL
                                                     />
                                                 </div>
-                                                <Link href="/features/Booking">
+                                                <Link href="/features/Online">
                                                     <a class="h-full pl-3 text-custom-900 hover:text-slate-500">
                                                         <p >Online Precence</p>
                                                         <p class='font-light'>Get discovered</p>
