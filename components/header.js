@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import MobileNav from './mobileNav'
 
 const myLoader = ({ src, width, quality }) => {
     return `https://s3.sailia.co.uk/${src}`
@@ -7,8 +8,12 @@ const myLoader = ({ src, width, quality }) => {
 
 function Header() {
     return (
+        
     <div class="bg-white mb-10 px-5 sticky top-0 z-40 w-full backdrop-blur flex-none transition-colors duration-500 md:z-50 border-b border-gray-900/8 supports-backdrop-blur:bg-white/95">
-        <div class="max-w-7xl mx-auto">
+        <div class='md:hidden'>
+            <MobileNav />
+        </div>
+        <div class="hidden md:block max-w-7xl mx-auto">
             <div class="py-2 mx-4 md:mx-0">
                 <div class="relative flex items-center">
                     <Link class="hover:text-sky-500" href="/">
@@ -24,7 +29,7 @@ function Header() {
                             />
                         </a>
                     </Link>
-                    <nav class="hidden md:block ml-auto">
+                    <nav class=" ml-auto">
                         <ul class="flex space-x-14 text-sm leading-6 font-semibold">
                             <li class='cursor-pointer has-tooltip'>
                                     <a class=" hover:text-slate-500">
