@@ -276,8 +276,8 @@ const Post = () => {
       </Head>
       <Header />
       <main>
-        <div class=" container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
-          <div class='flex'>
+        <div class=" container  flex-1 overflow-y-auto pt-0 md:pt-5 p-5 max-w-7xl mx-auto">
+          <div class='flex lg:flex-nowrap flex-wrap-reverse'>
             <div class='w-full md:w-4/6'>
               <div class='flex'>
                 <div class="h-5 w-5 mr-2 my-auto relative aspect-square">
@@ -299,7 +299,7 @@ const Post = () => {
                 text='Start now'
               />
             </div>
-            <div class=" rounded-3xl ml-8 h-[27rem] relative aspect-video">
+            <div class=" rounded-3xl w-full h-auto mb-5 md:ml-8 md:h-[27rem] relative aspect-video">
                 <Image
                   className="rounded-3xl"
                     loader={myLoader}
