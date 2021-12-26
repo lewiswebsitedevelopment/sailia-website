@@ -6,7 +6,7 @@ import USP from '../components/index/usp'
 import SVP from '../components/index/svp'
 import ToPricing from '../components/small/directToPricing'
 
-export default function Home() {
+function Home() {
   return (
     <div class="w-full font-montserrat text-text-900">
       <Head>
@@ -25,3 +25,8 @@ export default function Home() {
     </div>
   )
 }
+Home.getInitialProps = async (ctx) => {
+
+}
+
+export default Home

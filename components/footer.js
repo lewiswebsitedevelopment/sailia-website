@@ -14,7 +14,7 @@ function Footer() {
                 <div class=" w-24  my-auto relative aspect-video">
                   <Image
                         loader={myLoader}
-                        src= "websiteAssets/footer/Footer Logo.svg"
+                        src= "websiteAssets/footer/Footer Logo.png"
                         alt="Sailia logo"
                         layout='fill'
                         objectFit="contain"
