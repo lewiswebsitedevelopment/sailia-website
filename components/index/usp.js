@@ -87,10 +87,10 @@ function USP() {
           </div>
           <div class="p-3 w-2/4 md:w-2/4 lg:w-1/4">
             <div class="flex rounded-lg h-full md:p-5 xlg:p-8 flex-col ">
-              <div class=" w-14 h-20 mb-12 relative ">
+              <div class=" w-20 h-20 mb-12 relative ">
                 <Image
                   loader={myLoader}
-                  src="websiteAssets/header/Shop.svg"
+                  src="websiteAssets/home/Online Precence_1.svg"
                   alt="Console"
                   layout='fill'
                   objectFit="contain"
@@ -98,8 +98,8 @@ function USP() {
                 />
               </div>
               <div class="flex-grow">
-                <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Online shop</p>
-                <Link href="/features/Shop">
+                <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Online Presence</p>
+                <Link href="/features/Online">
                   <a class="mt-3 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="group-hover:translate-x-4 duration-300 w-5 h-5 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
