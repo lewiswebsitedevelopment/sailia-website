@@ -274,7 +274,9 @@ const Post = () => {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
-      <Header />
+      <Header /><noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT27B76"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+`}}></noscript>
       <main>
         <div class=" container  flex-1 overflow-y-auto pt-0 md:pt-5 p-5 max-w-7xl mx-auto">
           <div class='flex lg:flex-nowrap flex-wrap-reverse'>

@@ -15,7 +15,9 @@ export default function Home() {
             <link rel="icon" href="/favicon.ico" />
             <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
         </Head>
-        <Header />
+        <Header /><noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT27B76"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+`}}></noscript>
         <main class="flex-1 overflow-y-auto max-w-7xl mx-auto ">
             <section class="container p-5">
                 <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-gray-900">About us</h1>
