@@ -1,10 +1,5 @@
 import Head from 'next/head'
-import Header from '../components/header'
-import Footer from '../components/footer'
-import Hero from '../components/index/hero'
-import USP from '../components/index/usp'
-import SVP from '../components/index/svp'
-import ToPricing from '../components/small/directToPricing'
+
 
 const Home = ({ }) => {
   return (
