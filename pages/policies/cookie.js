@@ -10,7 +10,9 @@ export default function Cookie() {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
-      <Header />
+      <Header /><noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT27B76"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+`}}></noscript>
       <main class="bg-white rounded-2xl mt-10 flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
       <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16">
    <header id="header" class="relative z-20">
