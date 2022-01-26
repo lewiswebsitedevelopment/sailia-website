@@ -1,11 +1,11 @@
 // import Head from 'next/head'
 
 
-const Home = ({ buildTimestamp }) => {
+function Home({ data }) {
   return (
     <div class="w-full font-montserrat text-text-900">
       {/* <Head> */}
-      <title>Sailia {buildTimestamp}</title>
+      <title>Sailia {data}</title>
       <link rel="icon" href="/favicon.ico" />
       <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap"
@@ -43,12 +43,13 @@ const Home = ({ buildTimestamp }) => {
 };
 
 
-export const getStaticProps = () => {
-  return {
-    props: {
-      buildTimestamp: Date.now()
-    }
-  }
+// This gets called on every request
+export async function getServerSideProps() {
+  // Fetch data from external API
+
+  data = [];
+  // Pass data to the page via props
+  return { props: { data } }
 }
 
 export default Home;
