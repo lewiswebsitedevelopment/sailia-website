@@ -1,10 +1,10 @@
-import Head from 'next/head'
+// import Head from 'next/head'
 
 
 const Home = ({ }) => {
   return (
     <div class="w-full font-montserrat text-text-900">
-      <Head>
+      {/* <Head> */}
         <title>Sailia</title>
         <link rel="icon" href="/favicon.ico" />
         <link
@@ -22,7 +22,7 @@ const Home = ({ }) => {
           `,
           }}
         ></script>
-      </Head>
+      {/* </Head> */}
       {/* <Header /> */}
       <noscript
         dangerouslySetInnerHTML={{
