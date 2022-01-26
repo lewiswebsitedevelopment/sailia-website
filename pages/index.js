@@ -28,7 +28,7 @@ const Home = ({ }) => {
           }}
         ></script>
       </Head>
-      <Header />
+
       <noscript
         dangerouslySetInnerHTML={{
           __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT27B76"
@@ -37,12 +37,9 @@ const Home = ({ }) => {
         }}
       ></noscript>
       <main class=" w-full flex-1 overflow-y-auto">
-        <Hero />
-        <USP />
-        <SVP />
-        <ToPricing text="Stop Organising. Get Sailing" />
+
       </main>
-      <Footer />
+
     </div>
   );
 };
