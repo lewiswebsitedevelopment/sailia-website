@@ -140,8 +140,8 @@ function Header() {
                             </li>
                             <div class="border-solid border border-gray-700"></div>
                             <li>
-                                <a class="hover:text-sky-500" href="/blog">
-                                    Sign up
+                                <a class="hover:text-sky-500" href="/contact">
+                                    Contact
                                 </a>
                             </li>
                         </ul>

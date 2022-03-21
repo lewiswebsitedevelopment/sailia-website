@@ -12,7 +12,7 @@ const myLoader = ({ src, width, quality }) => {
   return `https://s3.sailia.co.uk/websiteAssets/${src}`
 }
 
-const Post = () => {
+export default function Feature() {
   const router = useRouter()
   const { feature } = router.query
   const features =  {
@@ -330,5 +330,3 @@ const Post = () => {
   
   )
 }
-
-export default Post
