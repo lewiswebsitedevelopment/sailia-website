@@ -11,9 +11,9 @@ function Hero() {
 
 		<div class="flex flex-col lg:w-2/4 justify-center items-start pt-1 pb-24 px-6">
 			<h3 class="md:leading-normal leading-tight mb-3 text-5xl">
-                Your Watersports centre’s Digital Partner
+                Your Watersports centre's Digital Partner
             </h3>
-            <p class='leading-normal mb-6'>Sailia is a complete management platform to help your centre get discovered, get bookings and get growing.</p>
+            <p class='leading-normal mb-6'>Sailia is a complete management platform to help your watersport centre get discovered, get bookings and get growing.</p>
 			<Button 
 				link='/features/Management'
 				text='Find out more'

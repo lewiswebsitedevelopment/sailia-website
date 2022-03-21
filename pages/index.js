@@ -12,6 +12,7 @@ export default function Home() {
       <Head>
         <title>Sailia</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Sailia is a complete management platform to help your watersport centre get discovered, get bookings and get growing."/>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
