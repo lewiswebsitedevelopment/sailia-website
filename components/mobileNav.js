@@ -90,7 +90,7 @@ class Home extends React.Component {
                                 </div>
                                 <Link href="/features/Online">
                                     <a class="h-full pl-3 mt-0.5 text-custom-900 hover:text-slate-500">
-                                        <p >Online Precence</p>
+                                        <p >Online Presence</p>
                                         
                                     </a>
                                 </Link>
