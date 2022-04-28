@@ -13,7 +13,6 @@ function FeatureMain(props) {
         let classes = 'text-white bg-custom-800 flex-row-reverse'
         classesone = 'lg:flex-nowrap flex-wrap flex-row-reverse container flex-1 flex overflow-y-auto py-24  max-w-7xl mx-auto'
     } 
-    console.log(classesone)
     return (
         <div class={classes}>
             <div class={classesone}>

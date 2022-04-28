@@ -18,7 +18,7 @@ export default function Feature() {
   const features =  {
     "Online": {
       "icon": "header/globe.svg",
-      "name": "Online Precence",
+      "name": "Online Presence",
       "title":"Find your space on the internet",
       "description": "Easily Establish your centre online with Sailia's pre-built template blocks.",
       "image": "features/Online/Group 1949.png",
@@ -204,7 +204,7 @@ export default function Feature() {
         },
         {
           "name": "Easy Booking Management",
-          "description": "Clients can easily manage bookings from within their profile without assistance from you. Clients can easily chat with their instructor or fill out requested info with ease.",
+          "description": "Clients can easily manage bookings from within their profile without assistance from you. Clients can easily chat with their instructor or fill out requested info with ease. Restrict bookings by qualification or age.",
           "image": "features/Booking/Profile – Real – 1.png",
           "bg": 0
         },

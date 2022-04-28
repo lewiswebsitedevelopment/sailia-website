@@ -83,7 +83,7 @@ function Header() {
                                                 </div>
                                                 <Link href="/features/Online">
                                                     <a class="h-full pl-3 text-custom-900 hover:text-slate-500">
-                                                        <p >Online Precence</p>
+                                                        <p >Online Presence</p>
                                                         <p class='font-light'>Get discovered</p>
                                                     </a>
                                                 </Link>
