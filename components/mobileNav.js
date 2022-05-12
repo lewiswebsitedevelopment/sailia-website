@@ -6,7 +6,7 @@ const myLoader = ({ src, width, quality }) => {
     return `https://s3.sailia.co.uk/${src}`
 }
 
-const activeSide = "bg-white h-screen w-screen  absolute transform transition-all fixed duration-700  flex  p-8"
+const activeSide = "sd bg-white h-screen w-screen  absolute transform transition-all fixed duration-700  flex  p-8"
 const hiddenSide = " hidden"
 const activeButton = " w-10 h-10 text-3xl my-auto top-0 z-50 cursor-pointer transition-all transform duration-700 flex items-center justify-center"
 const normalButton = " w-10 h-10 text-3xl my-auto top-0 z-50 cursor-pointer transition-all transform duration-700 flex items-center justify-center"
@@ -37,7 +37,8 @@ function Mobile() {
                 <div class='absolute top-24 left-0'>
                 <div
 //-----use a class to style base on state : active(true) or hidden(false)
-                    className={isNavExpanded ? activeSide:hiddenSide}>
+									// works but is hacky, just leave it
+                    className={`hidden` + (isNavExpanded ? activeSide:hiddenSide)}>
                     <ul>
                         <li>
                             Features
