@@ -13,5 +13,6 @@ body {
 
 .has-tooltip:hover .tooltip {
   @apply visible z-50;
+	display:grid;
 }
 

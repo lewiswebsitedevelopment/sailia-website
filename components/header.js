@@ -33,7 +33,7 @@ function Header() {
                         <ul class="flex space-x-14 text-sm leading-6 font-semibold">
                             <li class='cursor-pointer has-tooltip'>
                                     <a class=" hover:text-slate-500">
-                                        <span class='w-max tooltip grid rounded-2xl shadow-lg -translate-x-1/2  bg-white grid-cols-3 p-8 gap-x-10 gap-y-8 -mt-[-1.5rem]'>
+                                        <span class='w-max tooltiop-thing hidden tooltip grid rounded-2xl shadow-lg -translate-x-1/2  bg-white grid-cols-3 p-8 gap-x-10 gap-y-8 -mt-[-1.5rem]'>
                                             <div class='flex w-max h-max'>
                                                 <div class="h-9 w-9 m-auto relative aspect-square">
                                                     <Image
