@@ -7,8 +7,11 @@ const myLoader = ({ src, width, quality }) => {
 }
 
 function FeatureMain(props) {
-    console.log(props.bg)
+		if (!props) {
+			return (<div>Error</div>)
+		}
     let classesone = 'lg:flex-nowrap flex-wrap container flex-1 flex overflow-y-auto py-24  max-w-7xl mx-auto'
+	  let classes = 'text-white bg-custom-800 flex-row-reverse'
     if (props.bg === 1) {
         let classes = 'text-white bg-custom-800 flex-row-reverse'
         classesone = 'lg:flex-nowrap flex-wrap flex-row-reverse container flex-1 flex overflow-y-auto py-24  max-w-7xl mx-auto'
