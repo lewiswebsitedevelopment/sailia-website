@@ -8,8 +8,8 @@ const myLoader = ({ src, width, quality }) => {
 function FeatureChild(props) {
 
     return (
-          <div class="p-3 w-4/5 md:w-2/4 lg:w-1/4">
-            <div class="flex rounded-lg h-full p-5 xlg:p-8 flex-col">
+          <div class="md:p-3 md:py-0 py-4 w-4/5 w-full sm:w-2/4 lg:w-1/4">
+            <div class="flex rounded-lg h-full md:p-5 xlg:p-8 flex-col">
               <div class="w-24 mb-4 relative aspect-square">
                 <Image
                   loader={myLoader}

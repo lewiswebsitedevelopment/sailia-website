@@ -292,7 +292,7 @@ export default function Feature() {
                 </div>
                 <p>{features[feature]?.name}</p>
               </div>
-              <h1 class='leading-normal mb-3 text-5xl'>{features[feature]?.title}</h1>
+              <h1 class='leading-tight mb-3 text-5xl'>{features[feature]?.title}</h1>
               <p class='mb-12'>{features[feature]?.description}</p>
               <Button 
                 link='/pricing'
@@ -312,7 +312,7 @@ export default function Feature() {
             </div>
           </div>
         </div>
-        <div  class="container  flex-1 overflow-y-auto p-5 max-w-7xl mx-auto flex mt-16 justify-justify-center flex-wrap  md:w-full">
+        <div  class="container md:flex-1 overflow-y-auto p-5 max-w-7xl mx-auto sm:flex mt-16 justify-justify-center flex-wrap  md:w-full">
           {features[feature]?.features.map(item => <Card name={item.name} bg={item.bg} description={item.description} image={item.image} />)}
         </div>
         {features[feature]?.aspects.map(item => 

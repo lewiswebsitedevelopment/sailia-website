@@ -28,7 +28,7 @@ function USP() {
               <div class="flex-grow">
                 <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Centre shopfront</p>
                 <Link href="/features/Online">
-                  <a class="mt-3 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
+                  <a class="mt-4 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="group-hover:translate-x-4 duration-300 w-5 h-5 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -52,7 +52,7 @@ function USP() {
               <div class="flex-grow">
                 <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Management Console</p>
                 <Link href="/features/Management">
-                  <a class="mt-3 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
+                  <a class="mt-4 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="group-hover:translate-x-4 duration-300 w-5 h-5 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -76,7 +76,7 @@ function USP() {
               <div class="flex-grow">
                 <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Integrated Booking System</p>
                 <Link href="/features/Booking">
-                  <a class="mt-3 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
+                  <a class="mt-4 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="group-hover:translate-x-4 duration-300 w-5 h-5 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -100,7 +100,7 @@ function USP() {
               <div class="flex-grow">
                 <p class="text-xl h-1/2 md:h-3/4 xlg:h-3/5">Online Presence</p>
                 <Link href="/features/Online">
-                  <a class="mt-3 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
+                  <a class="mt-4 hover:cursor-pointer group text-medium inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="group-hover:translate-x-4 duration-300 w-5 h-5 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
