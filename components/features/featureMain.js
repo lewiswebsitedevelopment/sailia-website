@@ -11,9 +11,9 @@ function FeatureMain(props) {
 			return (<div>Error</div>)
 		}
     let classesone = 'lg:flex-nowrap flex-wrap container flex-1 flex overflow-y-auto py-24 px-4  max-w-7xl mx-auto'
-	  let classes = 'text-white bg-custom-800 flex-row-reverse'
+	  let classes = ''
     if (props.bg === 1) {
-        let classes = 'text-white bg-custom-800 flex-row-reverse'
+         classes = 'text-white bg-custom-800 flex-row-reverse'
         classesone = 'lg:flex-nowrap flex-wrap flex-row-reverse container flex-1 flex overflow-y-auto py-24 px-4 max-w-7xl mx-auto'
     } 
     return (
