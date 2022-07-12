@@ -20,7 +20,10 @@ export default function Home() {
             <p class="lg:w-2/3  leading-relaxed text-base ">Plans for every size</p>
 
             </div>
-            <div class="flex flex-wrap -m-4">
+            <div class='w-full bg-custom-600 p-3 rounded-md'>
+                Contact us for more information
+            </div>
+            <div class="flex flex-wrap -m-4 opacity-0">
             <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
                 <div class="h-full p-6 rounded-lg border bg-white border-custom-900 flex flex-col relative overflow-hidden">
                 <h2 class="text-sm tracking-widest title-font mb-1 font-medium">Launch</h2>
