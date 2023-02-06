@@ -11,69 +11,101 @@ export default function Cookie() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <main class="bg-white rounded-2xl mt-10 flex-1 overflow-y-auto p-5 max-w-7xl mx-auto">
-      <div class="max-w-3xl mx-auto pt-10 xl:max-w-none xl:ml-0 xl:mr-[15.5rem] xl:pr-16">
-   <header id="header" class="relative z-20">
-      <div>
-         <h1 class="inline-block text-3xl font-extrabold text-gray-900 tracking-tight">Brand</h1>
-      </div>
-      <p class="mt-2 text-lg text-gray-700">Tailwind CSS brand assets and usage guidelines.</p>
-   </header>
-   <div id="content" class="relative z-20 prose mt-8">
-      <h2 class="group flex whitespace-pre-wrap -ml-4 pl-4" id="trademark-usage-agreement">
-         <a href="#trademark-usage-agreement" class="absolute -ml-10 flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-            <div class="w-6 h-6 text-gray-400 ring-1 ring-gray-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-gray-900/10 hover:shadow hover:text-gray-700">
-               <svg width="12" height="12" fill="none" aria-hidden="true">
-                  <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-               </svg>
-            </div>
-         </a>
-         <span>Trademark Usage Agreement</span>
-      </h2>
-      <p>The Tailwind name and logos are trademarks of Tailwind Labs Inc.</p>
-      <p>You may not use the Tailwind name or logos in any way that could mistakenly imply any official connection with or endorsement of Tailwind Labs Inc. Any use of the Tailwind name or logos in a manner that could cause customer confusion is not permitted.</p>
-      <p>This includes naming a product or service in a way that emphasizes the Tailwind brand, like “Tailwind Themes” or “Tailwind Studio”, as well as in domain names like “tailwindkits.com”.</p>
-      <p>Instead, you must use your own brand name in a way that clearly distinguishes it from Tailwind CSS.  Examples that are permitted include “ComponentStudio for Tailwind CSS” or “UtilityThemes: Templates for Tailwind CSS”.</p>
-      <p>Additionally, you may not use our trademarks for t-shirts, stickers, or other merchandise without explicit written consent.</p>
-      <hr />
-      <h2 class="group flex whitespace-pre-wrap -ml-4 pl-4" id="assets">
-         <a href="#assets" class="absolute -ml-10 flex items-center opacity-0 border-0 group-hover:opacity-100" aria-label="Anchor">
-            <div class="w-6 h-6 text-gray-400 ring-1 ring-gray-900/5 rounded-md shadow-sm flex items-center justify-center hover:ring-gray-900/10 hover:shadow hover:text-gray-700">
-               <svg width="12" height="12" fill="none" aria-hidden="true">
-                  <path d="M3.75 1v10M8.25 1v10M1 3.75h10M1 8.25h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-               </svg>
-            </div>
-         </a>
-         <span>Assets</span>
-      </h2>
-      <p>These assets are provided for use in situations like articles and video tutorials. They should not be used in any way that could be confusing for customers or imply any affiliation with Tailwind Labs Inc.</p>
-</div>
+      <div class='max-w-7xl sm:mx-8 md:mx-auto'>
+        <div class='md:w-7/12 sm:w-auto'>
+        <p style={{marginBottom: '15.0pt'}}><b><span style={{color: '#414042'}}>Sailia Ltd Cookie Policy.</span></b></p>
 
-   <div class="fixed z-20 top-[7.8125rem] bottom-0 right-[max(0px,calc(50%-42rem))] w-[19.5rem] py-10 px-8 overflow-y-auto hidden xl:block">
-      <h5 class="text-gray-900 font-semibold mb-4 text-sm leading-6">On this page</h5>
-      <ul class="text-gray-700 text-sm leading-6">
-         <li><a href="#trademark-usage-agreement" class="block py-1 font-medium font-medium text-sky-500">Trademark Usage Agreement</a></li>
-         <li><a href="#assets" class="block py-1 font-medium hover:text-gray-900">Assets</a></li>
-         <li class="ml-4">
-            <a href="#mark" class="group flex items-start py-1 hover:text-gray-900">
-               <svg width="3" height="24" viewBox="0 -9 3 24" class="mr-2 text-gray-400 overflow-visible group-hover:text-gray-600">
-                  <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-               </svg>
-               Mark
-            </a>
-         </li>
-         <li class="ml-4">
-            <a href="#logotype" class="group flex items-start py-1 hover:text-gray-900">
-               <svg width="3" height="24" viewBox="0 -9 3 24" class="mr-2 text-gray-400 overflow-visible group-hover:text-gray-600">
-                  <path d="M0 0L3 3L0 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
-               </svg>
-               Logotype
-            </a>
-         </li>
-      </ul>
-   </div>
+
+<p style={{marginTop: '15.0pt'}}><b>What Are Cookies</b></p>
+
+<p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.</p>
+
+<p style={{marginTop: '15.0pt'}}><b>How We Use Cookies</b></p>
+
+<p>We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</p>
+
+<p style={{marginTop: '15.0pt'}}><b>Disabling Cookies</b></p>
+
+<p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies.</p>
+<p style={{marginTop: '15.0pt'}}><b>The Cookies We Set</b></p>
+
+<ul>
+
+<li>
+    <p>Account related cookies</p>
+    <p>If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases they may remain afterwards to remember your site preferences when logged out.</p>
+</li>
+
+<li>
+    <p>Login related cookies</p>
+    <p>We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in.</p>
+</li>
+
+
+<li>
+    <p>Orders processing related cookies</p>
+    <p>This site offers e-commerce or payment facilities and some cookies are essential to ensure that your order is remembered between pages so that we can process it properly.</p>
+</li>
+
+
+<li>
+    <p>Forms related cookies</p>
+    <p>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p>
+</li>
+
+<li>
+    <p>Site preferences cookies</p>
+    <p>In order to provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.</p>
+</li>
+
+</ul>
+
+<p style={{marginTop: '15.0pt'}}><b>Third Party Cookies</b></p>
+
+<p>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.</p>
+
+<ul>
+
+<li>
+    <p>This site uses Google Analytics which is one of the most widespread and trusted analytics solution on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.</p>
+    <p>For more information on Google Analytics cookies, see the official Google Analytics page.</p>
+</li>
+
+<li>
+    <p>Third party analytics are used to track and measure usage of this site so that we can continue to produce engaging content. These cookies may track things such as how long you spend on the site or pages you visit which helps us to understand how we can improve the site for you.</p>
+</li>
+
+<li>
+    <p>From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.</p>
+</li>
+
+<li>
+    <p>As we sell products it's important for us to understand statistics about how many of the visitors to our site actually make a purchase and as such this is the kind of data that these cookies will track. This is important to you as it means that we can accurately make business predictions that allow us to monitor our advertising and product costs to ensure the best possible price.</p>
+</li>
+
+
+<li>
+    <p>We use adverts to offset the costs of running this site and provide funding for further development. The behavioural advertising cookies used by this site are designed to ensure that we provide you with the most relevant adverts where possible by anonymously tracking your interests and presenting similar things that may be of interest.</p>
+</li>
+
+
+
+
+</ul>
+
+<p style={{marginTop: '15.0pt'}}><b>More Information</b></p>
+
+<p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</p>
+
+
+<p>However if you are still looking for more information then you can contact us through one of our preferred contact methods:</p>
+
+<ul>
+<li>Email: george@sailia.co.uk</li>
+
+</ul>
 </div>
-      </main>
+</div>
       <Footer />
     </div>
   )
