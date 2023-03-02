@@ -45,11 +45,15 @@ function Footer() {
                         <a class="hover:text-gray-400 hover:underline">Cookie</a>
                     </Link>
                 </li>
+                <li>
                   <Link href="/policies/privacy">
                         <a class="hover:text-gray-400 hover:underline">Privacy</a>
                     </Link>
+                </li>
                 <li>
-                  <a class="hover:text-gray-400 hover:underline">Acceptable use</a>
+                  <Link href="/policies/tac">
+                        <a class="hover:text-gray-400 hover:underline">Terms and Conditions</a>
+                    </Link>
                 </li>
               </nav>
             </div>
