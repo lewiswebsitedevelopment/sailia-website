@@ -27,12 +27,12 @@ export default function Home() {
                     <h2 class="text-sm tracking-widest title-font mb-1 font-medium"></h2>
                     <h1 class="text-5xl text-gray-900 leading-none flex items-baseline pb-2">
                         <span>Free</span>
-                        <span class="text-lg ml-1 font-normal text-gray-500">when online</span>
+                        <span class="text-lg ml-1 font-normal text-gray-500"></span>
                     </h1>
                     {/* <p>We levy a booking fee at checkout</p> */}
                     <p class="pb-4 mb-4 flex flex-col border-b border-gray-200  text-gray-500  text-sm">
-                        <span>4% of cash payments invoiced each month</span>
-                        <span>5% customer booking fee</span>
+                        {/* <span>4% of cash payments invoiced each month</span> */}
+                        <span>We just charge a small booking fee for every ticket you sell. You can pay this yourself, or pass it on to your customers. Your choice.</span>
                     </p>
                     <p class='mb-4 text-slate-600'>Includes everything</p>
                     <p class="flex items-center text-gray-600 mb-2">
