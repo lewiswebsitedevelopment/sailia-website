@@ -12,7 +12,7 @@ export default function Privacy() {
       </Head>
       <Header />
         
-      <div class='max-w-7xl sm:mx-8 md:mx-auto'>
+      <div class='max-w-7xl md:mx-auto  mx-4'>
         <div class='md:w-7/12 sm:w-auto'>
           <p style={{marginBottom: '15.0pt'}}><b><span style={{color: '#414042'}}>Sailia Ltd Privacy Policy.</span></b></p>
           <p style={{marginBottom: '15.0pt'}}><span style={{color: '#414042'}}>Sailia Ltd respects your privacy and is committed to

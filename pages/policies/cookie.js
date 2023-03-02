@@ -11,7 +11,7 @@ export default function Cookie() {
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet"></link>
       </Head>
       <Header />
-      <div class='max-w-7xl sm:mx-8 md:mx-auto'>
+      <div class='max-w-7xl md:mx-auto  mx-4'>
         <div class='md:w-7/12 sm:w-auto'>
         <p style={{marginBottom: '15.0pt'}}><b><span style={{color: '#414042'}}>Sailia Ltd Cookie Policy.</span></b></p>
 
